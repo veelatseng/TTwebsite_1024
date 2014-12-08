@@ -1,0 +1,949 @@
+@charset "utf-8";
+body {
+	background: #e8e8e8;
+}
+/******** Base Start ********/
+/****************************/
+a,
+a:link {
+	outline : 0;
+	text-decoration: none;
+	color:#00408f
+}
+a:hover {
+	text-decoration: underline;
+}
+a.epBtn01 {
+	background: #a7dbe3;
+	background-position:0 -4px;
+	display: inline-block;
+	color: #333;
+	padding: 6px 0;
+	width:132px;
+	text-align:center;
+}
+a.epBtn01 .mailicon {
+	background-position:0 -1px;
+	height:22px;
+}
+a.epBtn01:hover {
+	text-decoration: none;
+	background:#c0ebf2
+}
+.F18 {
+	font-size: 18px;
+	font-weight: bold
+}
+.F16 {
+	font-size: 16px;
+	font-weight: bold
+}
+.TagBtn {
+	display: inline-block;
+	border: 1px solid #efefef;
+	background: #fcfcfc;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	margin-left: 8px;
+	text-align: center;
+	width: 40px
+}
+.TagBtn.news {
+	color: #199cde
+}
+.TagBtn.hot {
+	color: #cc0000
+}
+.EP_Wrap {
+	min-width:980px;	
+	background: #ffffff;
+	padding:0 10px
+}
+.EP_Wrap a.btnAttachment,
+.EP_Wrap a.btnDel{
+	color:#5c5c5c !important
+	}
+.EP_Main {
+	width: 980px;
+	margin: 0 auto;
+
+}
+
+a.btn_big_01,
+a.btn_big_02{
+	color:#000 !important
+}
+a.btn_big_04,
+a.btn_big_05{
+	color:#ffffff !important
+}
+
+a.btn_big_04 .mailicon{
+	background:url(../images/public/symbol_01.png) no-repeat left -3153px
+}
+a.btn_big_05 .mailicon_s{
+	background:url(../images/public/symbol_01.png) no-repeat left -3199px
+}
+
+/******** HEADER ********/
+/************************/
+.TopBar.EPmode {
+	background: #fcfcfc;
+}
+.TopBar.EPmode a{
+	color:#000 !important
+}
+.TopBar.EPmode .EP_Tbar {
+	width: 980px;
+	margin: 0 auto;
+	position:relative;
+	right:-10px
+}
+.TopBar.EPmode .addwatchBtn {
+	position:absolute;
+	left:-15px;
+	top:-20px;
+	z-index:8000;
+	width:120px !important;
+	background:none!important;
+}
+.TopBar.EPmode .addwatchBtn:hover {
+	color:#00408f
+}
+
+.TopBar.EPmode .TopNav .Item.watchlist a {
+	background: url(../images/public/symbol_01.png) -8px -1289px no-repeat;
+}
+
+.TopBar.EPmode .TopNav .Item a:hover {
+	color:#00408f !important
+}
+
+.EP_Header {
+	height: 70px;
+	position: relative;
+	padding-top:30px;
+}
+.EP_Header h1 {
+	display: inline-block;
+	font-size: 15px;
+}
+.EP_Header h1 span {
+	padding: 0 0 0 10px;
+	display: inline-block;
+	position: relative;
+	bottom: -10px;
+	width:550px;
+	
+}
+.EP_Header.nolgog span{
+	font-size:20px;
+	bottom: -25px;
+	padding-left:0
+}
+.EP_Header.nolgog .logo{
+	display:none
+}
+.EP_Header .logo {
+	width: 100px;
+	height: 70px;
+	display: inline-block;
+	vertical-align: middle
+}
+.EP_Header .epsearchBlk {
+	border: 1px solid #d4d4d4;
+	width: 214px;
+	height: 28px;
+	margin-top: 19px;
+	position: relative;
+	-webkit-box-shadow: inset 0 0 2px 0px #CCCCCC;
+	box-shadow: inset 0 0 2px 0px #CCCCCC;
+	position:absolute;
+	right:0;
+	top:0px
+}
+.EP_Header .epsearchBlk input {
+	width: 170px;
+	border: 0;
+	margin-left: 5px;
+	background: transparent
+}
+.EP_Header .epsearchBlk button {
+	width: 30px;
+	height: 30px;
+	position:absolute;
+	right:0;
+	top:0;
+	background: url(../images/public/ep_symbol_01.png) no-repeat -2px -2px;
+	cursor: pointer;
+	border: 0;
+	text-indent: -9999px
+}
+/******** TOP NAVIGATION BLOCK ********/
+/**************************************/
+.EP_Nav {
+	height: 45px;
+	text-align: right;
+	border-bottom: 1px solid #d4d4d4;
+	border-top: 1px solid #d4d4d4;
+}
+.EP_Nav.hideNav {
+	border: 0;
+}
+.EP_Nav.hideNav ul {
+	display: none
+}
+.EP_Nav li.listItem {
+	display: inline-block;
+	*display: inline;
+	*zoom:1;
+}
+.EP_Nav li.listItem a {
+	display: block;
+	padding: 16px 15px 10px;
+	margin-left: 10px;
+	color:#000 !important;
+}
+.EP_Nav li.listItem a:hover {
+	text-decoration:none;
+	border-bottom: 2px solid #323232
+}
+.EP_Nav li.listItem a.act {
+	color: #636363 !important;
+	border-bottom: 2px solid #323232
+}
+/******** KV1 ********/
+/*********************/
+.SlideKv01 {
+	width: 980px;
+	height: 370px;
+	position: relative
+}
+.SlideKv01:after {
+	content: "";
+	width: 978px;
+	height: 319px;
+	border-top: 0;
+	border: 1px solid #d4d4d4;
+	border-top: 0;
+	position: absolute;
+	z-index: 20;
+	left: 0;
+	top: 0
+}
+.epKV1 {
+	width: 980px;
+	height: 350px;
+}
+.epKV1 .sliderkit-nav {
+	position: absolute;
+	top: 330px;
+	right: 0;
+	width: 100%
+}
+.epKV1 .sliderkit-nav-clip ul li {
+	display: inline-block;
+	margin: 0 2px 0 0;
+}
+.epKV1 .sliderkit-nav-clip ul li a {
+	outline: none;
+	width: 20px;
+	height: 20px;
+	background: url(../images/public/ep_symbol_01.png) no-repeat -5px -85px;
+}
+.epKV1 .sliderkit-nav-clip ul li.sliderkit-selected a {
+	background: url(../images/public/ep_symbol_01.png) no-repeat -5px -45px;
+}
+.epKV1 .sliderkit-go-btn {
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	width: 30px;
+	height: 50px;
+	left: 0;
+	display: none
+}
+/******** KV2 ********/
+/*********************/
+.SlideKv02 {
+	position : relative;
+	margin : 0 auto;
+	width : 980px;
+	height : auto;
+	border : none;
+	overflow : hidden;
+	margin: 10px 0 15px
+}
+.SlideKv02 .slides {
+	margin : 0;
+	padding : 0;
+	border : none;
+	list-style : none;
+	position : relative;
+	overflow : visible;
+}
+.SlideKv02 .slides .slideItem {
+	position : absolute;
+	cursor : pointer;
+	overflow : hidden;
+	padding : 0;
+	margin : 0;
+	border : none;
+}
+.SlideKv02 .slides .slideItem a {
+	display: block;
+	text-decoration : none;
+	margin : 0;
+	padding : 0;
+	border : none;
+	outline : none;
+}
+.SlideKv02 .slides .slideItem img {
+	margin : 0;
+	padding : 0;
+	border : none;
+	width : 100%;
+	height : 100%;
+}
+.SlideKv02 .nextButton {
+	position : absolute;
+	right : 10px;
+	top : 133px;
+	width : 35px;
+	height : 35px;
+	/*background : url("images/next_button.png") no-repeat center;*/
+	cursor : pointer;
+	z-index : 9999;
+	display: none
+}
+.SlideKv02 .prevButton {
+	position : absolute;
+	left : 10px;
+	top : 133px;
+	width : 35px;
+	height: 35px;
+	/*background : url("images/prev_button.png");*/
+	cursor : pointer;
+	z-index : 9999;
+	display: none
+}
+.SlideKv02 .buttonNav {
+	position : relative;
+	margin : 0 auto;
+	z-index : 999;
+}
+.SlideKv02 .buttonNav .bullet {
+	position : relative;
+	float : left;
+	width : 16px;
+	height : 16px;
+	background: url("../images/public/ep_symbol_01.png") no-repeat -5px -85px;
+	margin : 5px;
+	float : left;
+	cursor : pointer;
+}
+.SlideKv02 .buttonNav .bullet:hover {
+	background: url("../images/public/ep_symbol_01.png") no-repeat -5px -45px;
+}
+.SlideKv02 .buttonNav .bulletActive {
+	background: url("../images/public/ep_symbol_01.png") no-repeat -5px -45px;
+	cursor : default;
+}
+.EP_Content {
+}
+.EP_Content.Idx .fl {
+	width: 275px;
+}
+.EP_Content.Idx .fr {
+}
+.TwoColumnLayerOut .FloatL {
+	width: 197px;
+	float: left
+}
+.TwoColumnLayerOut .FloatL {
+	width: 197px;
+	float: left
+}
+/******** CONTACT US BLOCK********/
+/*********************************/
+.ContactUs {
+	background: #f4f4f4;
+	color: #5c5c5c;
+	width: 275px;
+	float: left
+}
+.ContactUs ul {
+	padding: 15px;
+}
+.ContactUs li {
+	padding: 4px 0;
+	line-height: 20px;
+}
+/******** EP RIGHT COL INFO BLOCK********/
+/****************************************/
+.indexInfoBlk {
+	width: 687px;
+	float: right;
+	color: #5e5e5e
+}
+.indexInfoBlk .hotPrdBlk {
+	overflow: hidden
+}
+
+.indexInfoBlk .hotPrdBlk02 {
+	overflow: hidden
+}
+
+/******** EP LEFT NAVIGATION BLOCK ********/
+/******************************************/
+
+.EpNav {
+	width: 197px;
+	background: #d7d7d7;
+	font-size: 13px;
+	float: left
+}
+.EpNav .navItem .navTitle {
+	display:block;
+	padding: 10px 10px 10px 20px;
+}
+.EpNav .navItem .navTitle a{
+	color:#000
+}
+.EpNav .navItem .navTitle a:hover{
+	color:#00408f;
+	text-decoration:none
+}
+.EpNav .navItem .subItem > a {
+	display: block;
+	color: #5e5e5e;
+	padding: 10px 10px 10px 35px;
+	background: url(../images/public/nav_arrow.png) no-repeat 10px -26px;
+	background-color: #EEE;
+	font-size: 12px;
+	text-decoration: none;
+	border-top: 1px solid #FFF;
+}
+
+.EpNav .navItem .subItem > a:hover{
+	color:#00408f
+}
+.EpNav .navItem .subItem.switch > a {
+	background-position: 10px -138px;
+	color: #d6873c;
+	font-size:12px;
+}
+.EpNav .navItem .subItem .thirdMenu {
+	padding: 5px 0;
+	background: #fcfcfc;
+}
+.EpNav .navItem .subItem .thirdMenu li a {
+	display:inline-block;
+	border:1px solid red;
+	padding: 5px 10px 5px 45px;
+	color: #5e5e5e;
+	border: 0;
+	font-size:12px
+}
+.EpNav .navItem .subItem .thirdMenu li a:hover {
+	color: #00408f;
+}
+/******** EP HOT PRODUCTS BLOCK ********/
+/***************************************/
+.prdType {
+	position: relative;
+	float: left;
+	height: 155px;
+	margin-bottom: 20px;
+}
+.prdType .avatar {
+	background: #f4f4f4;
+	border: 1px solid #e4e4e4;
+	display: block;
+	height: 150px;
+	margin-right: 15px;
+}
+.prdType .avatar img {
+	width: 138px;
+	height: 138px;
+	margin: 6px
+}
+.prdType .cont {
+	height: 138px;
+	overflow: hidden;
+}
+.prdType .cont a {
+	color: #00408f;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 10px
+}
+.prdType.col1 {
+	width: 687px
+}
+.prdType.col2 {
+	width: 329px;
+	margin-left: 25px;
+}
+.prdType:first-child.col2 {
+	margin-left: 0
+}
+a.moreBtn {
+	color: #595656;
+	text-decoration: underline
+}
+a.moreBtn:hover {
+	text-decoration: underline;
+	color:#00408f;	
+}
+
+
+/*----hotPrdBlk02---han1005--*/
+.hotPrdBlk02 .prdType.col2,.hotPrdBlk02 .prdType.col3{width:167px; height:193px; margin:0px 3px 5px 0px;}
+.hotPrdBlk02 .prdType.col2 .avatar,.hotPrdBlk02 .prdType.col3 .avatar{ float:none;}
+.hotPrdBlk02 .prdType.col2 .cont,.hotPrdBlk02 .prdType.col3 .cont{ height:36px; margin-top:5px; width:150px;}
+/*----hotPrdBlk02---han1005--*/
+
+/*----hotPrdBlk03---han1005--*/
+.hotPrdBlk03 .prdType.col2,.hotPrdBlk03 .prdType.col3{width:100%; height:145px; margin-left:0px; margin-right:3px;}
+.hotPrdBlk03 .prdType.col2 .avatar,.hotPrdBlk03 .prdType.col3 .avatar{}
+.hotPrdBlk03 .prdType.col2 .cont,.hotPrdBlk03 .prdType.col3 .cont{ height:130px; margin-top:5px;}
+/*----hotPrdBlk03---han1005--*/
+
+
+/******** EP NEWS CONTENT BLOCK ********/
+/***************************************/
+.NewsBlk {
+	clear: both;
+	border-top: 1px solid #d4d4d4;
+	margin-bottom: 15px
+}
+.NewsBlk H2 {
+	padding: 20px 0 5px 0;
+	font-weight: normal;
+	color: #000
+}
+.NewsLister li.item {
+	padding: 7px 0
+}
+.NewsLister li.item em {
+	float: left;
+	font-style: normal;
+	padding: 0 15px 0 0;
+	line-height: 20px;
+	color: #5e5e5e;
+	width: 50px
+}
+.NewsLister li.item span {
+	display: block;
+	overflow: hidden;
+	line-height: 20px
+}
+/******* FOOTER *******/
+/**********************/
+
+.EP_Footer {
+	min-height: 110px;
+}
+.EP_Footer .footerCont {
+	width: 980px;
+	margin: 0 auto;
+	position: relative
+}
+.EP_Footer .footerCont .botLogo {
+	display: block;
+	width: 151px;
+	height: 34px;
+	background: url(../images/public/bot_logo.png) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 45px
+}
+.EP_Footer .footerCont .ShareLink {
+	position: absolute;
+	right: 0;
+	top: 0
+}
+.EP_Footer .footerCont .ShareLink {
+	position: absolute;
+	right: 0;
+	top: 8px;
+	width: 355px;
+	font-size: 12px
+}
+.EP_Footer .footerCont .ShareLink li.item {
+	float: right;
+}
+.EP_Footer .footerCont .ShareLink li.item.QRcode p {
+	padding-bottom: 3px
+}
+.EP_Footer .footerCont .ShareLink li.item.share {
+	margin: 17px 6px 0 0;
+}
+.EP_Footer .footerCont .ShareLink li.item.txt {
+	text-align: right;
+	margin: 8px 10px 0 0
+}
+.EP_Footer .footerCont .ShareLink li.item.txt a {
+	text-decoration: underline;
+	color: #5c5c5c
+}
+.EP_Footer .footerCont .ShareLink li.item.txt a:hover {
+	color:#0066d3
+}
+.EP_Footer .footerCont .ShareLink li.item .shareBtn {
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	background: url(../images/public/share_link.png) no-repeat;
+	margin-right: 4px
+}
+.EP_Footer .footerCont .ShareLink li.item .shareBtn.bt01 {
+	background-position: right 0;
+}
+.EP_Footer .footerCont .ShareLink li.item .shareBtn.bt01:hover {
+	background-position: left 0;
+}
+.EP_Footer .footerCont .ShareLink li.item .shareBtn.bt02 {
+	background-position: right -40px
+}
+.EP_Footer .footerCont .ShareLink li.item .shareBtn.bt02:hover {
+	background-position: left -40px
+}
+.EP_Footer .footerCont .ShareLink li.item .shareBtn.bt03 {
+	background-position: right -80px
+}
+.EP_Footer .footerCont .ShareLink li.item .shareBtn.bt03:hover {
+	background-position: left -80px
+}
+.EP_Footer .footerCont .ShareLink li.item .shareBtn.bt04 {
+	background-position: right -120px
+}
+.EP_Footer .footerCont .ShareLink li.item .shareBtn.bt04:hover {
+	background-position: left -120px
+}
+.EP_Footer .footerCont .ShareLink li.item .shareBtn.bt05 {
+	background-position: right -160px
+}
+.EP_Footer .footerCont .ShareLink li.item .shareBtn.bt05:hover {
+	background-position: left -160px
+}
+
+.EP_Footer .footerCont .ShareLink li.item .shareBtn.bt06 {
+	background-position: right -200px
+}
+.EP_Footer .footerCont .ShareLink li.item .shareBtn.bt06:hover {
+	background-position: left -200px
+}
+
+
+/******* EP PRODUCT DETAIL PAGE *******/
+/**************************************/
+
+.EP_Content .locationBar {
+	/*padding: 10px 0;*/
+	color: #5e5e5e
+}
+
+.EP_Content .locationBar a{
+	color: #00408f
+}
+.EP_Content .locationBar:after{
+	display:none
+}
+.EP_productSheetPage {
+	width: 753px;
+	float: right;
+}
+
+.EP_productSheetPage .pageText{
+	color: #5e5e5e;
+	font-size: 12px;
+}
+/*.EP_productSheetPage*/ .aboutInfoBlk {
+	position: relative;
+	border-bottom:1px solid #ffffff;
+	margin:0px 0px 10px 0px;
+}
+/*.EP_productSheetPage*/  .aboutInfoBlk .blkTitle {
+	color: #000;
+	font-weight: bold;
+	width:500px;
+	font-size    : 20px;
+	margin-bottom:10px
+}
+/*.EP_productSheetPage*/  .aboutInfoTxt {
+	margin-right: 290px;
+	margin-bottom: 30px
+}
+
+.aboutInfoTxtnoVideo {
+	margin-right:10px;
+	margin-bottom: 30px
+}
+
+.EP_productSheetPage .showRoom {
+	margin-left: 100px;
+	margin-bottom:300px
+}
+.EP_productSheetPage .showRoom .inputTxt.w250{
+	vertical-align:middle;
+	width:250px;
+}
+
+.EP_productSheetPage .showRoom a.btnInvited {
+	color       : #126fd6;
+	font-weight : bold;
+	background  : url(../images/public/product_icon_01.png) 0 2px no-repeat;
+	padding-left: 25px;
+	margin-left : 65px;
+	margin-top:10px;
+	display:block
+}
+.EP_productSheetPage .showRoom .avatar {
+	position:absolute;
+	left:0;
+	top:0
+}
+.aboutVedio {
+	position: absolute;
+	right: 0;
+	top: 32px;
+}
+.EP_productSheetPage .companyProfileGrp {
+	padding-top: 0
+}
+.EP_productSheetPage ul.supplierPic li {
+	margin-left: 25px
+}
+.EP_productSheetPage ul.supplierPic li a {
+	color: #00408f
+}
+.EP_productSheetPage ul.supplierPic li img.border {
+	display: block;
+	border : 1px solid #dfdfdf;
+}
+.EP_productSheetPage ul.supplierPic.allCompany {
+	overflow: hidden
+}
+.EP_productSheetPage ul.supplierPic.allCompany li {
+	margin-left: 30px
+}
+.EP_productSheetPage ul.supplierPic.allCompany li:first-child {
+	margin-left: 0
+}
+.EP_productSheetPage .productBriefBlk {
+	overflow : hidden;
+	position: relative
+}
+.EP_productSheetPage .photoRollerBlk {
+	float : left;
+}
+.EP_productSheetPage .briefContentBlk {
+	margin-left : 390px;
+}
+.EP_productSheetPage .briefContentBlk h3.productName {
+	font-size : 18px;
+	line-height: 1.2em;
+	padding-top: 0;
+}
+.EP_productSheetPage .briefContentBlk a.btnBuyiDealEZ {
+	color : #0066d3;
+	font-weight : bold;
+	display:inline-block;
+	margin:10px 0 0 0 ;
+}
+.EP_productSheetPage .briefContentBlk .btnBlk {
+	width : 160px;
+	margin-top : 80px;
+}
+.EP_productSheetPage .briefContentBlk .btnBlk .ps {
+	display : block;
+	color : #a0a0a0;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	margin-top : 10px;
+}
+.EP_productSheetPage .briefContentBlk ul.specBrief {
+	overflow : hidden;
+}
+.EP_productSheetPage .briefContentBlk ul.specBrief li.item {
+	clear : both;
+	padding-top: 12px;
+	color : #000;
+}
+.EP_productSheetPage .briefContentBlk ul.specBrief li.item em {
+	float : left;
+	width : 110px;
+	color : #5f5f5f;
+	font-style : normal;
+}
+.EP_productSheetPage .briefContentBlk ul.specBrief li.item strong {
+	float : left;
+	width : 245px;
+}
+.EP_productSheetPage ul.specBrief li.item strong.deepBlue {
+	color: #00408f;
+}
+.EP_productSheetPage ul.specBrief li.item a.addwatchBtn.inProduct{
+	color: #d6873c;
+	position:relative;
+	top:0;
+	left:250px
+}
+.EP_productSheetPage .slideBlk {
+	margin-bottom : 30px;
+}
+.EP_productSheetPage .othLink li {
+	font-size: 12px;
+	padding: 0;
+	padding: 5px 0;
+}
+.EP_productSheetPage .shareToBlk {
+	text-align: right;
+	position: absolute;
+	bottom: 8px;
+	right: 0
+}
+.EP_productSheetPage .productBriefBlk .addwatchBtn.inProduct {
+	position : absolute;
+	top: auto;
+	bottom : 45px;
+	right : 0;
+	width : 100px;
+	letter-spacing: 0px;
+	color: #d6873c
+}
+.EP_productSheetPage .sortby {
+	background: #f4f4f4;
+	padding: 5px 20px;
+
+}
+/******** PRODUCTS Photo Mode ********/
+/*************************************/
+
+.producListBlk {
+	clear: both;
+	margin-bottom: 20px
+}
+.EP_productSheetPage .prdResultList {
+	border: 0px;
+}
+.EP_productSheetPage .prdResultList .prdItem .prdPic {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #d4d4d4;
+	position: relative;
+	margin-bottom: 10px
+}
+.EP_productSheetPage .prdResultList .prdItem {
+	width : 156px;
+	height : 220px;
+	margin-left: 44px;
+}
+.EP_productSheetPage .prdResultList .prdItem .prdInfo{
+	min-height:inherit;
+	*min-height:auto
+}
+.EP_productSheetPage .prdResultList .prdItem .prdInfo .prdName {
+	font-size: 12px;
+	color: #00408f;
+	padding-bottom: 10px;
+}
+.EP_productSheetPage .prdResultList .prdItem:hover:after {
+	content : "";
+	left : -13px;
+}
+.EP_productSheetPage .solidLine {
+	width: 753px;
+	text-align: left
+}
+/******** PRODUCTS LIST MODE ********/
+/************************************/
+
+.EP_productSheetPage .prdResultList.keywordMode .prdItem {
+	width: 750px;
+	height: 182px;
+	margin-left: 0;
+}
+.EP_productSheetPage .prdResultList.keywordMode .prdItem .Leftcol {
+	width: 100%;
+	height: 180px;
+	background: none;
+}
+.EP_productSheetPage .prdResultList.keywordMode .prdItem:hover:after {
+	width : 780px;
+	height : 102%;
+	top : -4px;
+	left : -14px;
+}
+.EP_productSheetPage .prdResultList.keywordMode .Leftcol .prdPic {
+	margin: 15px 0 0 0;
+}
+.EP_productSheetPage .prdResultList.keywordMode .Leftcol .prdInfo {
+	height: 150px;
+	width: 580px;
+	margin-top: 15px;
+}
+.EP_productSheetPage .prdResultList.keywordMode .addwatchBtn {
+	top: 15px;
+	right: 0;
+}
+.EP_productSheetPage .addwatchBtn:hover {
+	color:#00408f !important;
+}
+.EP_productSheetPage .prdResultList.keywordMode a.prdName {
+	font-size: 17px !important;
+	width: 440px;
+}
+
+.EP_productSheetPage.newsPageBlk{
+	float:none
+}
+/******** EP CONTENT SUCCESS PAGE ********/
+/*****************************************/
+.EP_contactFormPage {
+	overflow: hidden;
+}
+.EP_contactFormPage .slideBlk {
+	/*background: #efefef;*/
+}
+.EP_contactFormPage .slideBlk .title_F14 {
+	padding: 15px 20px 0
+}
+.EP_contactFormPage .carousel-Saleson {
+	height : 245px!important;
+	width : 980px;
+	display: block;
+	margin-left : 5px;
+}
+.EP_contactFormPage .carousel-Saleson .sliderkit-nav-clip ul li a.picbtn,
+.EP_contactFormPage .carousel-Saleson .sliderkit-nav-clip ul li:first-child div {
+	background : none;
+}
+.EP_contactFormPage .carousel-Saleson .sliderkit-nav-clip {
+	width : 980px!important;
+	height : 245px!important;
+}
+.EP_contactFormPage .carousel-Saleson .sliderkit-nav-clip ul li {
+	float: left;
+	margin: 5px 27px 5px 0;
+}
+.EP_contactFormPage .carousel-Saleson .sliderkit-nav-clip ul li a.picbtn {
+	width : 170px;
+}
+.EP_contactFormPage .carousel-Saleson.arrowbtn .sliderkit-nav .sliderkit-nav-next {
+	right : 20px;
+}
+.EP_contactFormPage .carousel-Saleson.arrowbtn .sliderkit-nav .sliderkit-nav-prev {
+	left : 10px;
+}
+.EP_contactFormPage .carousel-Saleson .sliderkit-nav-clip ul li a.picbtn p {
+	padding: 0 10px
+}
+.EP_contactFormPage .carousel-Saleson .sliderkit-nav-clip ul li a.picbtn .addwatchBtn {
+	display: inline-block;
+	text-decoration: none;
+}

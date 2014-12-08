@@ -1,0 +1,306 @@
+@media screen and (max-width: 320px){
+
+.mytaiwantradetPage {
+	&.messagePage {
+		.dataText {
+			margin-top: 5px;
+			img {
+				vertical-align: middle
+			}
+		}
+		.colData {
+			position: relative
+		}
+		.rightCheck {
+			position: absolute;
+			right: 0;
+			top: 10px;
+		}
+		.TableList {
+			font-size: 12px;
+			width: 100%;
+			th{
+				&.tHead{
+					text-align: left;
+					font-weight: normal;
+					border: 1px #e4e4e4;
+					&.colData {
+						background: #f7f7f7;
+					}
+				}
+			}
+			.colData {
+				padding: 15px;
+				border: 0;
+				border-top: 1px solid #e4e4e4;
+				.dateTime {
+					white-space: nowrap;
+				}
+				&.w150 {
+					width: 150px;
+				}
+			}
+			.fromName {
+				font-style: normal;
+				color: #000;
+				display: block
+			}
+			td:first-child {
+				text-align: center;
+				vertical-align: middle
+			}
+			.avatar {
+				margin-right: 5px
+			}
+			.fromInfo {
+				display: block;
+				overflow: hidden
+			}
+		}
+	}
+	.tradeContBlk {
+		margin: 10px 0  20px 0;
+		.sortby {
+			padding: 0 0 0 0;
+			margin-top: 8px;
+			.tableTitle {
+				font-size: 16px;
+				color: black;
+				margin-bottom: 15px;
+			}
+			.fr {
+				padding: 0;
+				color: #a5a5a5;
+			}
+			.w50 {
+				width: 50px;
+				padding: 0;
+				text-align: center;
+				padding-left: 1px;
+			}
+		}
+		/*
+		.TableList {
+			margin-top: 5px;
+			width: 100%;
+		}
+		.alertRow {
+			text-align: right;
+			.alertLink {
+				float: left;
+				padding: 5px;
+				text-align: left;
+				width: 660px;
+				display: inline-block;
+				margin-bottom: 5px;
+				a {
+					color: #0066d3;
+				}
+			}
+		}
+		.alertTitle {
+			font-size: 16px;
+			color: #000;
+		}
+		.new {
+			color: #cc0000;
+			padding-left: 5px;
+			font-style: normal;
+		}
+		.usefulLinkField {
+			width: 470px;
+			ul.linkLister! {}
+			.linkTitle {
+				font-size: 16px;
+				margin: 0 0 15px 0;
+			}
+			ul.linkLister .listItem {
+				margin-bottom: 25px;
+				a {
+					color: #0066d3;
+					margin-bottom: 5px;
+					display: inline-block;
+				}
+			}
+		}*/
+	}
+}
+/*
+.mytaiwantradetPage .TableList input[type=checkbox], .mytaiwantradetPage .TableList input[type=radio] {
+	margin-right: 0;
+}
+
+.mytaiwantradetPage .pageInfoText {
+	margin-top: 5px;
+	font-size: 12px;
+	line-height: 20px
+}
+.mytaiwantradetPage .blkTitle a.keepLink {
+	font-size: 12px;
+	color: #0066d3;
+	font-weight: normal;
+	float: right
+}
+.mytaiwantradetPage .mytaiwantradetPage input[type=checkbox], .mytaiwantradetPage .mytaiwantradetPage input[type=radio] {
+	margin-right: 0;
+	top: 1px
+}
+.mytaiwantradetPage .blkTitle {
+	font-weight: bold;
+	font-size: 20px;
+}
+.mytaiwantradetPage .slideBlk .title_F14 {
+	margin-bottom: 0
+}
+.mytaiwantradetPage .stxt {
+	font-weight: normal;
+	font-size: 14px;
+	margin-top: 10px;
+	display: block
+}
+.mytaiwantradetPage .historyTxt {
+	font-weight: normal;
+	font-size: 13px;
+	color: #5e5e5e;
+	line-height: 18px;
+}
+
+.mytaiwantradetPage .TableList table {
+	border-collapse: collapse;
+	width: 100%
+}
+.mytaiwantradetPage .TableList table, .mytaiwantradetPage .TableList td, .mytaiwantradetPage .TableList th {
+	border: 1px solid #ececec;
+}
+.mytaiwantradetPage .TableList .lHead {
+	background: #ececec;
+	width: 50px;
+	text-align: center
+}
+.mytaiwantradetPage .TableList .listBlk {
+	padding: 5px;
+	font-size: 12px
+}
+.mytaiwantradetPage .TableList .contactEND {
+	background: #f6f6f6
+}
+.mytaiwantradetPage .TableList .contactNEW {
+	background: #FEFEF4
+}
+.mytaiwantradetPage .TableList .infoContBlk {
+	overflow: hidden;
+}
+.mytaiwantradetPage .TableList .listBlk .avatar {
+	width: 100px;
+	height: 100px;
+	margin-left: 15px
+}
+.mytaiwantradetPage .TableList .listBlk img {
+	width: 100px;
+	height: 100px;
+}
+.mytaiwantradetPage .TableList .listBlk img.border {
+	display: block;
+	border : 1px solid #dfdfdf;
+}
+.mytaiwantradetPage .TableList .listBlk .cont {
+	float: left;
+	margin-left: 15px;
+	width: 550px;
+}
+.mytaiwantradetPage .TableList .listBlk .info a {
+	color: #0066d3;
+}
+.mytaiwantradetPage .TableList .listBlk .cont .pdTitle a {
+	display: block;
+	font-size: 15px;
+	padding-bottom: 5px;
+	color: #0066d3
+}
+.mytaiwantradetPage .TableList .listBlk .cont .info li {
+	padding: 2px 0;
+}
+.mytaiwantradetPage .TableList .listBlk .cont .info strong {
+	color: #5e5e5e;
+	font-weight: normal;
+	margin-right: 5px
+}
+.mytaiwantradetPage .TableList .listBlk .removeLink {
+	margin: 5px 10px
+}
+.mytaiwantradetPage .TableList .listBlk .addDate {
+	margin: 5px 10px;
+	color: #5e5e5e;
+}
+.mytaiwantradetPage .tableStyle01 {
+	position: relative
+}
+.mytaiwantradetPage .tableStyle01 .deleteInbox {
+	position: absolute;
+	right: 0;
+	bottom: -40px
+}
+.mytaiwantradetPage .tableStyle01 .blkTitle {
+	font-size: 16px;
+	font-weight: normal
+}
+.mytaiwantradetPage .tableStyle01 td {
+	padding: 15px 25px;
+	color: #5e5e5e;
+	vertical-align: top
+}
+.mytaiwantradetPage .tableStyle01 td a {
+	color: #0066d3;
+}
+.mytaiwantradetPage .tableStyle01 td .StatusLink li {
+	margin-bottom: 10px
+}
+.mytaiwantradetPage .tableStyle01 .tHead {
+	background: #f7f7f7;
+}
+.mytaiwantradetPage .tableStyle01 .tHead.w220 {
+	width: 220px
+}
+.mytaiwantradetPage .tableStyle01 .tHead.w120 {
+	width: 120px;
+	padding-right: 0
+}
+
+.mytaiwantradetPage a.btnAddCc {
+	color: #0066d3
+}
+.mytaiwantradetPage .messageBlk {
+}
+.mytaiwantradetPage .pageNumberBlk {
+	padding-bottom: 0;
+	border: 0
+}
+.mytaiwantradetPage .infoText {
+	color: #5e5e5e;
+	font-size: 12px;
+}
+.mytaiwantradetPage .WatchBtnBlk {
+	position: relative;
+}
+.mytaiwantradetPage .WatchBtnBlk a {
+	font-size: 12px;
+}
+.mytaiwantradetPage .WatchBtnBlk .afterCheck {
+}
+.mytaiwantradetPage .WatchBtnBlk .afterCheck.disable a.compare, .mytaiwantradetPage .WatchBtnBlk .afterCheck.disable a.mailalert {
+	color: #999;
+	cursor: default;
+	text-decoration: none
+}
+.mytaiwantradetPage .WatchBtnBlk a.compare, .mytaiwantradetPage .WatchBtnBlk a.mailalert {
+	margin-left: 30px;
+	color: #5e5e5e;
+}
+.mytaiwantradetPage .WatchBtnBlk a.questionMarkerBlk {
+	margin-left: 5px;
+	margin-top: -3px
+}
+*/
+
+}
+

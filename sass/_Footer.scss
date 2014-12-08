@@ -1,0 +1,230 @@
+@charset "utf-8";
+@media screen and (max-width: 320px){
+
+.Footer {
+	clear: both;
+	background: #e9e9e9;
+	font-size: 11px !important;
+	color: #272727;
+	min-width:300px;
+	width: 300px;
+	padding:5px 10px;
+	margin-top: 10px;
+	position:relative;
+	//深灰線
+	&:before{
+		content:"";
+		position:absolute;
+		left:0;
+		top:0;
+		width:100%;
+		height:6px;
+		background: #5c5c5c;
+		border-bottom:1px solid #a7a7a7
+	}	
+	.footerBlk {
+		margin: 0 auto;
+		width:300px;
+		.infoblk a {
+			color:#0066d3
+		}
+		.Blk01 {
+			background: none;
+			overflow: hidden;
+			.R_Col {
+				*width : 300px;
+				float: left;
+				margin: 0px 10px 5px 10px ;
+				.otherLink {
+					display: inline-block;
+					*display: inline;
+					*zoom: 1;
+					margin-left: 35px;
+					*margin-left: 18px;
+					&:first-child {
+						margin-left: 0
+					}
+					&:nth-child(3){
+						display: none;
+					} 
+					.title11 {
+						padding-bottom:5px
+					}
+					.icon {
+						display: inline-block;
+						margin-right: 5px;
+						background: url(../images/public/symbol_01.png) left top no-repeat;
+						width: 24px;
+						height: 24px;
+						&.Facebook {
+							background-position: -3px -483px;
+							&:hover {
+								background-position: -43px -483px;
+							}
+						}
+						&.Twitter {
+							background-position: -3px -523px;
+							&:hover {
+							 	background-position: -43px -523px;
+							}
+						}
+						&.Youtube {
+							background-position: -3px -563px;
+							&:hover {
+								background-position: -43px -563px;
+							}
+						}
+						&.In {
+							background-position: -3px -603px;
+							&:hover {
+								background-position: -43px -603px;
+							}
+						}
+						&.google {
+							background-position: -3px -1553px;
+							&:hover {
+								background-position: -43px -1553px;
+							}
+						}
+						&.Apple {
+							background-position: -3px -643px;
+							&:hover {
+								background-position: -43px -643px;
+							}
+						}
+						&.Android {
+							background-position: -3px -683px;
+							&:hover {
+								background-position: -43px -683px;
+							}
+						}
+					}
+				}
+			}
+			.L_Col{
+				float: left;
+				width: 300px;
+				background: none;
+				margin: 15px 10px 20px 10px;
+				.ttdAlertBlk{
+					span{
+						display: block;
+					}
+					.alticon {
+						display: inline-block;
+						vertical-align: middle;
+						margin-right: 30px;
+						margin-bottom: 10px;
+						letter-spacing: 0.15px;
+						background: url(../images/public/symbol_01.png) no-repeat left -800px;
+						height: 30px;
+						color: #676767;
+						font-size: 15px;
+						font-weight: bold;
+						line-height: 30px;
+						padding-left: 37px
+					}
+					.inputBox {
+						position: relative;
+						width: 300px;
+						height: 30px;
+						/*
+						background: #fff;
+						-webkit-box-shadow: inset 0 0 5px 0px #CCCCCC;
+						box-shadow: inset 0 0 5px 0px #CCCCCC;
+						-webkit-border-radius: 5px;
+						-moz-border-radius: 5px;
+						border-radius: 5px;
+						border-top: 1px solid #d4d4d4;
+						border-left: 1px solid #d4d4d4;
+						border-right: 1px solid #ffffff;
+						border-bottom: 1px solid #ffffff;
+						*/
+						margin: 5px 0 0 0px;
+						background:none;
+						&:before {
+							content:"";
+							display:none;
+							width:5px;
+							height:30px;
+							background: url(../images/public/symbol_01.png) left -3401px no-repeat;;
+							position:absolute;
+							top:0;
+							left:0;
+						}
+						&:after {
+							content:"";
+							display:none;
+							width:5px;
+							height:30px;
+							background: url(../images/public/symbol_01.png) -7px -3402px no-repeat;
+							position:absolute;
+							top:0;
+							right:0;
+						}
+						input {
+							border: 0;
+							height: 30px;
+							line-height: 30px;
+							padding: 0 10px;
+							background: #fff;
+							width: 200px;
+							font-size: 13px !important;
+							*margin-left:-30px;
+							border-radius: 5px 0 0 5px ;
+						}
+						button {
+							border: 0;
+							height: 30px;
+							width: 80px;
+							position: absolute;
+							right:10px;
+							top: 0;
+							background: #8a8a8a;
+							color: #ffffff;
+							-webkit-border-radius: 5px;
+							-moz-border-radius: 5px;
+							border-radius: 0 5px 5px 0;
+							font-size: 13px !important;
+							font-weight: bold;
+							cursor: pointer;
+							font-family:arial !important;
+							&:hover {
+								background: #5e5e5e
+							}
+						}
+					}
+				}
+			}
+		}
+		.Blk02 {
+			display: none;
+		}
+		.copyrightBlk {			
+			.online{
+				display: none;
+			}
+			p{
+				text-align: center;
+			}
+		}		
+	}
+}
+.simpleStyle{
+	width: 300px;
+	background: none;
+	border-top : 1px solid #5E5E5E;
+	text-align: left;
+	*position:relative;
+	*z-index:-1;
+	&:before {
+		background: none;
+		border:0;
+		display: none;
+	}
+
+}
+
+
+
+}

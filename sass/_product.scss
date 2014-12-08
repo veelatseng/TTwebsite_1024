@@ -1,0 +1,170 @@
+@media screen and (max-width: 320px){
+
+.list_introduce {
+	display: none;
+}
+.ContentPage.vtLine {
+	background: none;
+}
+.ContentPage .ContPage_RightCol {
+	float: none;
+	width: 300px;
+	margin: 0 auto;
+}
+.ContentPage .RelatedSearchBlk {
+	display: none;
+}
+.ContentPage .searchResultBlk {
+	margin-top: -45px;
+}
+/* Sortby Function */
+.sortby {
+	color: #525252;
+	display: block;
+	padding: 0 10px 15px 0;
+	.result_for{ width:100%;} 
+	li {
+		display: inline-block;
+	 	*display:inline;
+		 *zoom:1;
+		vertical-align: middle;
+		padding: 0 25px 5px 0;
+		line-height: 28px;
+	}
+}
+
+.prdResultList {
+	border-top: 1px solid #d4d4d4;
+	clear: both;
+	width:300px;
+	position: relative;
+	min-height: 180px;
+	.prdItem {
+		float : left;
+		width : 140px;
+		height : auto;
+		color : #000000;
+		padding : 15px 0;
+		font-size : 12px;
+		margin-left: 0px;
+		margin-right: 18px;
+		position : relative;
+		&:nth-child(2n){
+			margin-right: 0;
+		}
+		&:hover .prdWarp {
+			position: relative;
+			z-index : 1;
+			border: 0 solid #e3e3e3\9;
+			padding: 0 0 0 0 \9;
+			position: relative\9;
+			top: 0px\9;
+			left: 0px\9;
+		}
+		&:hover:after {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 115%;
+			height: 101%;
+			top: -3px;
+			left: -15px;
+			z-index: 0;
+			box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+			background-color:rgba(0, 0, 0,0);
+		}
+		.prdPic {
+			width: 140px;
+			height: 140px;
+			border: 1px solid #d4d4d4;
+			position: relative;
+			margin-bottom: 10px;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.prdInfo {
+			min-height: 20px;
+			li {
+				padding: 2px 0;
+			}
+			.prdName {
+				font-size: 14px;
+				color: #0066d3;
+				padding: 0 0 5px 0;
+				display: block;
+			}
+			.infoItem{
+				display: none;
+			}
+		}
+		&.attentionBlk {
+			background: #fefef4;
+			margin-top: 3px
+		}
+	}
+}
+
+.prdResultList .prdItem
+
+
+a.addwatchBtn, .addwatchBtn{
+	display       : inline-block;
+	vertical-align: middle;
+	color         : #d6873c;
+	cursor:pointer;
+	width:inherit !important;
+	font-size:12px;
+	&:before  {
+		content     : "";
+		display     : inline-block;
+		width       : 15px;
+		height      : 15px;
+		margin-left : 0;
+		background: url(../images/public/symbol_01.png) no-repeat -8px -1288px;
+		vertical-align:middle;
+		position:relative;
+		top:-1px
+
+	}
+}
+.addwatchBtn:hover {
+	text-decoration:underline;
+	color:#0066d3
+}
+
+.slideBlk {
+	display: none;
+}
+
+/* TAITRA Service*/
+.ContentPage .taitraServiceBlk {
+	border: 1px solid #d4d4d4;
+	height: auto;
+	padding: 15px;
+	background: none;
+	margin:0px 0 20px 0;
+	color: #000000;
+	ul {
+		margin: 10px 0 0 0px;
+		li {
+			padding: 6px 0
+		}
+	}
+	a {
+		font-weight: bold;
+	}
+	span {
+		width: 18px;
+		height: 16px;
+		display: inline-block;
+		vertical-align: middle;
+		background: url(../images/public/symbol_01.png) no-repeat -8px -2007px;
+	}
+	strong {
+		font-size: 15px;
+	}
+}
+
+}

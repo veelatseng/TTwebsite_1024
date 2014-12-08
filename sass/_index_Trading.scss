@@ -1,0 +1,99 @@
+@charset "utf-8";
+@media screen and (max-width: 320px){
+
+.Trading{
+	clear: both;
+	padding: 0 10px;
+	.title_F22 {
+		font-size: 15px;
+		font-weight: bold;
+		padding: 15px 0 15px 0;
+		clear: both;
+		text-align: center;
+	}
+	.TradingNewsBlk {
+		width:300px;
+		position: relative;
+		clear: both;
+		padding: 0;
+		height: 260px;		
+		.TradingNews_leftCol {
+			width: 300px;
+			float: none;
+			clear: both;
+			margin-left: 0px;
+			position: relative;
+			&:after {
+				display: none;
+			}
+			.tabBlk {	
+				.tabLister {
+					display: block;
+					height: 36px;
+					border-bottom: 1px solid #d4d4d4;
+					width: 300px;
+					li.tabItem {
+						float: left;
+						margin-right: 8px;						
+					}
+				}
+			}
+			.tabContent {
+				float: left;
+				width: 100%;
+				.scroll-pane {
+					width: 300px;
+					height: 240px;
+					overflow: auto;
+					table {
+						width: 300px;
+						td {
+							border-bottom: 1px dotted #d4d4d4;
+							padding: 8px 5px 8px;
+							img {
+								vertical-align: middle;
+							}
+							a {
+								color: #0066d3;
+								line-height: 18px;
+							}
+						}
+					}									
+				}
+				.more {
+					margin: 10px 0px 0 0;
+					padding-right: 0px;
+				}
+			}
+			
+		}
+		.TradingNews_rightCol {
+			float: none;
+			padding-top: 35px;
+			width: 300px;
+			clear: both;
+			.youtubeBlk {
+				width: 295px;
+				height: 175px;
+				background:none;
+				padding: 3px;
+			}
+			.mvTitle {
+				background: url(../images/public/symbol_02.png) no-repeat left -154px;
+				height: 30px;
+				font-size: 12px;
+				color: #666666;
+				line-height: 18px;
+				padding-left: 48px;
+				margin-top:10px;
+			}
+			.more {
+				float: right;
+				margin: 0px 0 10px 0;
+				padding: 0;
+			}
+		}
+	}
+}
+
+}

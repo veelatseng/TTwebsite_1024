@@ -1,0 +1,138 @@
+@charset "utf-8";
+@media screen and (max-width: 320px){
+
+.Saleson {
+	clear: both;
+	padding: 0 10px;
+	.title_F22 {
+		font-size: 15px;
+		font-weight: bold;
+		padding: 10px 0 10px 0;
+		clear: both;		
+		text-align: center;
+		border:solid 2px #ccc;
+		border-radius: 3px;
+		img{
+			vertical-align: bottom;
+			margin-left: 15px;
+		}
+	}
+	.carousel-Saleson {
+		width:auto;
+		margin-left: 0px;
+		margin-top: 10px;
+		height:280px;
+		position: relative;
+		.sliderkit-nav {
+			left: 0;
+			bottom: 0;
+			background: none;
+		}
+		.sliderkit-nav-clip {
+			width: 300px !important;
+			height: 280px !important;
+			ul {
+				margin-left: 0px !important;
+				li {
+					float: left;
+					margin: 0 0 0 0;
+					padding: 10px 55px;
+					background: none;
+					text-align: center;
+					div {
+						padding: 0 0;
+						&:hover {
+							-webkit-box-shadow: 0 0 0px 0 #555555;
+							-moz-box-shadow: 0 0 0px 0 #555555;
+							box-shadow: 0 0 0px 0 #555555;
+							background: none;
+							top: -1px \9;
+							left: -1px \9;
+							position: relative\9;
+							border: 0px solid #d4d4d4\9;
+						}
+					}
+					&:first-child div {
+						background: none;
+					}
+					p {
+						display: table-cell;
+						vertical-align: middle;
+						font-size: 12px;
+						line-height: 18px;
+						padding: 0px;
+						vertical-align: bottom;
+						font-size: 12px;
+						text-align: center;
+						line-height: 18px;
+						height: 40px;
+						width:300px;
+						text-align: center;
+						span {
+							display: block;
+						}
+					}
+					a {
+						&:hover.picbtn p span {
+							display: block;
+							text-decoration: underline;
+						}
+						&.picbtn {
+							display: block;
+							width:auto;
+							height:auto;
+							margin: 0;
+							padding: 0 0 10px;
+							background: none;
+							color: #0066d3;
+						}
+					}
+					em.price {
+						font-style: normal;
+						color: #ff0000;
+						display: block;
+					}
+				}
+			}
+			a.button_01 {
+				display: inline-block;
+				margin: 0px auto 0;
+				background: -webkit-gradient(linear, 0 0, 0 bottom, from(white), to(#f7f7f7));
+				background: -webkit-linear-gradient(white, #f7f7f7);
+				background: -moz-linear-gradient(white, #f7f7f7);
+				background: -ms-linear-gradient(white, #f7f7f7);
+				background: -o-linear-gradient(white, #f7f7f7);
+				background: linear-gradient(white, #f7f7f7);
+				-pie-background: linear-gradient(white, #f7f7f7);
+				behavior: url(js/PIE.htc);
+			}
+		}
+		&.arrowbtn .sliderkit-nav {
+			.sliderkit-nav-btn {
+				position: absolute;
+				top: 100px;
+			}
+			.sliderkit-nav-prev {
+				position: absolute;;
+				z-index: 99999;
+				left: 0px;
+			}
+			.sliderkit-nav-next {
+				position: absolute;;
+				z-index: 99999;
+				right: 0px;
+			}
+		}
+	}
+}
+
+
+:root .carousel-Saleson .sliderkit-nav-clip ul li div:hover {
+	top: 0\0;
+	left: 0\0;
+	position: inherit\0;
+	border: 0\0;
+}
+
+
+}

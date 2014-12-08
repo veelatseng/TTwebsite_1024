@@ -1,0 +1,166 @@
+@media screen and (max-width: 320px){
+
+/* PRODUCT PAGE  */
+.productSheetPage{
+	.cookiebit {
+		display: none;
+	}
+	.productContentBlk {
+		clear : both;
+		padding-bottom: 25px;
+		&.epProfile {
+			border-top: 1px solid #d4d4d4;
+			.productInfoBlk {
+				overflow : hidden;
+				margin-top: 20px;
+				.productInfo {
+					float : left;
+					width : 300px!important;
+					margin-right: 0px!important;
+					//內容全部
+					.tabBlk{
+						.tabLister{
+						}
+						.companyProfileGrp{
+							.title_F20 {
+								font-size: 18px;
+								padding-bottom: 10px;
+							}
+							.addwatchBtn.inTitle {
+								font-size: 12px;
+								display: block;
+								margin-left: 0px;
+								margin-top: 10px;
+							}
+						}
+					}
+					.popupFrame{
+						display: none;
+					}
+					.contactSupplierFormBlk{
+					}
+										
+				}
+			}
+		}
+	}
+	.productBriefBlk {
+		overflow : hidden;
+		padding: 0;
+		.photoRollerBlk {
+			float : left;
+			.sliderkit.productDetailPic{
+				padding:0px;
+				width : 300px;
+				height : 300px!important;
+				margin-bottom : 0px;
+				.sliderkit-nav{
+					display: none;
+				}
+				.sliderkit-panels{
+					width: 298px;
+					height:298px;
+					border: 1px solid #dfdfdf;
+					.sliderkit-panel img{
+						width: 298px;
+						height:298px;
+					}
+				}
+			}
+		}
+		.briefContentBlk {
+			width : 300px;
+			margin-left : 0px;
+			float: left;
+			ul.specBrief em {
+				width : 80px;
+			}
+			h3.productName {
+				font-size : 18px;
+				line-height: 1em;
+				padding-top: 15px;
+			}
+			a.btnBuyiDealEZ {
+				color : #126fd6;
+				font-weight : bold;
+				background : url(../images/public/symbol_01.png) 0 -3049px no-repeat;
+				padding-left: 23px;
+				margin-left : 10px;
+			}
+			.btnBlk {
+				margin-top : 20px;				
+				display: inline-block;				
+				.ps {
+					display : block;
+					color : #a0a0a0;
+					font-size: 12px;
+					font-weight: normal;
+					text-align: center;
+					margin-top : 10px;
+					width: 103%;
+				}
+			}
+			.slideBlk {
+				margin-bottom : 30px;
+			}
+
+		}
+	}
+	.slideBlk{
+		display: none;
+	}
+}
+.tabBlk .tabLister.reverse {
+	display: none!important;
+}
+.productInfo .contactSupplierFormBlk {
+	display: none;
+}
+.productInfoBlk .otherProductsBlk {
+	display: none;
+	.ul.productRowList {
+		display: none;
+	}
+}
+/*
+.sliderkit.productDetailPic {
+	position : relative;
+	padding-bottom: 65px;
+	width : 362px;
+	height : 360px;
+	margin-bottom : 10px;
+	.sliderkit-panels {
+		width : 298px;
+		height: 298px;
+		border: 1px solid #dfdfdf;
+	}
+	.sliderkit-nav {
+		position : absolute;
+		bottom : 0;
+		left : 0;
+		display: none;
+		.sliderkit-nav-clip {
+		}
+		li {
+			a {
+				display : block;
+				border : 2px solid #fff;
+				width : 50px;
+				height : 50px;
+				margin-right: 23px;
+				img {
+					width : 50px;
+					height: 50px;
+				}
+			}
+			&.sliderkit-selected a {
+				border : 2px solid #ffc01b;
+				outline: 0;
+			}
+		}
+	}
+}
+*/
+
+
+}

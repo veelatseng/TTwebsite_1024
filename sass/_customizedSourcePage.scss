@@ -1,0 +1,38 @@
+@media screen and (max-width: 320px){
+
+.customizedSourcePage{
+	.tabBlk{
+		display: none;
+	}
+	.contactSupplierFormBlk{
+		margin-top: 10px;
+		.collapseFormBlk {
+			width : 285px!important;
+			background-color: #F7F7F7;
+			padding : 5px 10px 5px 5px!important;
+			height : 20px;
+			overflow : hidden;
+			font-size: 12px;
+			.promptTxtBlk {
+				display : inline-block;
+				background: url(../images/public/symbol_01.png) no-repeat -5px -2965px;
+				padding-left: 20px
+			}
+		}		
+	}
+}
+
+.contactSupplierFormBlk table.formTable td.colData .w177 {
+    width: 185px !important;
+    margin-top: 8px;
+}
+.contactSupplierFormBlk table.formTable td.colData .w306 {
+    width: 295px !important;
+     margin-top: 8px;
+}
+.contactSupplierFormBlk table.formTable td.colData .w80 {
+    width: 80px !important;
+     margin-top: 8px;
+}
+
+}

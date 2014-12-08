@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--meta http-equiv="Expires" content="wen, 14 Jan 2015 00:20:00 GMT" /-->
+<!--meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate" /-->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="description" content="{產品名稱}-{產品描述}" />
+<meta name="keywords" content="{產品名稱}, {產品關鍵字}" />
+<meta name="author" content="" />
+<meta property="og:title" content="Product Name">
+<meta property="og:description" content="Product Description">
+<meta property="og:image" content="" />
+<meta property="og:url" content="Product Detail Page/Paid Company EP Product Detail Page URL"><!--產品所在url-->
+<meta property="og:type" content="product" />
+<meta property="og:site_name" content="Taiwantrade">
+<meta property="fb:app_id" content="336620646443182,182155225166054" />
+<meta property="fb:admins" content="123546371096772,157382294388249,100003739522897" />
+<meta property="fb:page_id" content="123546371096772 " />
+<title>{產品名稱}-product details</title>
+<link href="../css/common.css" rel="stylesheet" type="text/css">
+<link href="../css/ttd_style.css" rel="stylesheet" type="text/css">
+<link href="../css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+<link href="../css/responsive.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.t1{
+font-size:10px;
+color:#AA9FAA;
+}
+.t2{
+font-size:10px;
+color:#000000;
+}
+</style>
+<script type="text/javascript">
+function resettext(id){ //恢復文字(onblur)
+  alert("1");
+     if(id.value == "")
+     {
+       id.value = id.defaultValue;
+           id.className ="t1";   
+     }
+               }
+function cleartext (id){ //清除文字(onfocus)
+  
+      id.value ="";
+      id.className ="t2";   
+}
+    </script>
+
+
+
+</head>
+
+<body>
+<div class="form_box01" >
+<div class="close">
+<a href="#"><img src="http://www.meshbelt.com/X.gif" width="20" height="20"></a>
+</div>
+      <h3>Request the latest price from the supplier</h3>
+          <table>
+            <tbody >
+              <tr >
+                <td ></td>
+              </tr>
+              <tr >
+                <th ><p><span><em class="color_r">*</em>From:</span></p></th>
+                <td ><input type="text" class="t1"  value="123@hmail.com" 
+                            onfocus="cleartext(this)" onblur="resettext(this)">
+                </td>
+              </tr>
+              <tr >
+                <th ><p><span>To:</span></p></th>
+                <td ><p>Tim Yan</p></td>
+              </tr>
+              <tr >
+                <th ><p><span><em class="color_r">*</em>Quantity Needed:</span></p></th>
+                <td ><p>
+                  <input type="text" class="">
+                </p>
+                  <form name="form1" method="post" action="">
+                    <label for="select"></label>
+                    <select name="select" id="select">
+                      <option>Pack/Packs</option>
+                     </select>
+                  </form></td>
+              </tr>
+              <tr >
+                <th ><p><span><em class="color_r">*</em>Estimated Annual Purchases:</span></p></th>
+                <td ><span>
+                  <input type="text" class="" >
+                </span>US</td>
+              </tr>
+              <tr >
+                <th ><p><span>Message:</span></p></th>
+                <td ><div>
+                  <textarea name="textarea2" class="inputTxtara" ></textarea>
+                  <ul >
+                    <li >
+                      <input name="input" type="checkbox" value="">
+                      <p>Recommend matching suppliers if this suddlier doesn't contact me on Message Center within 48 hours</p>
+                    </li>
+                  </ul>
+                </div></td>
+              </tr>
+              <tr >
+                <th >&nbsp;</th>
+                <td ><p class="formBtn"> <a href="#a01" class="btn_big_02 gotoStep2" title="Continue">OK</a> </p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+</body>
+</html>

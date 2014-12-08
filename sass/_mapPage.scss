@@ -1,0 +1,59 @@
+@media screen and (max-width: 320px){
+
+.mapPage{
+	.taitraOfficeLogo {
+		float:none;
+	}
+	.customizedSourcePage {
+		margin-left: 0px;
+		.tabBlk {
+			.tabLister {
+				display: block;
+				height: 70px;
+				width: 300px;
+				border: none;
+				margin: 0;
+				li.tabItem {
+					float: left;
+					margin-right: 4px;
+					a.link {
+						display: block;
+						min-width: 96px;
+						width: 96px;
+						height:auto;
+						line-height: 140%;
+						border: none;
+						color: #000;
+						position:relative;
+						padding: 4px 0 6px 0;
+						word-break : break-word!important;
+						border-radius: 3px;
+						background: #fdba37;
+						&:before{
+							display: none;
+						}
+						&:after{
+							display: none;
+						}	
+					}
+				}
+				.textCenter{
+					text-align:right !important;
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+	.tradeinvestmenPage {
+		color: #5e5e5e;
+		line-height: 21px;
+		.mapFrame iframe {
+			width: 100%;
+			height: 250px;
+			margin-top: 20px;
+		}
+	}
+}
+
+
+}

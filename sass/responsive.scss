@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 320px){
+.Wrap {
+	width: 320px;
+	margin: 0 auto;
+	padding-left : 0px;
+	padding-right :0px;
+}
+.Content .topcontBlk {
+	height: 180px;
+}
+.BottomBaner {
+	display: none;
+}
+.Content .topSearchBlk {
+	display: none;
+}
+.hidden{
+	display: none;
+}
+.ContentPage {
+	width: 300px;
+	margin:0 auto;
+	border: none;
+}
+.generalPage .introTitle {
+	font-weight: bold;
+}
+.locationBar {
+	display: none;
+}
+
+.pageNumberBlk li .preBtn, .pageNumberBlk li .nextBtn {
+	width: 80px;
+	display: inline-block;
+	padding: 5px 0;
+	border: 1px solid #d4d4d4;
+}
+
+
+}
+
+@import  "_TopBar.scss";
+@import  "_Header.scss";
+@import  "_Nav.scss";
+@import  "_Footer.scss";
+
+@import  "_index_Sliderkit.scss";
+@import  "_index_Newslider.scss";
+@import  "_index_Category .scss";
+@import  "_index_Products.scss";
+@import  "_index_Saleson.scss";
+@import  "_index_DummyText.scss";
+@import  "_index_Trading.scss";
+@import  "_index_LinksBlk.scss";
+
+
+@import  "_Service.scss";
+@import  "_ContactSupplierFormBlk.scss";
+@import  "_OpenWindow.scss";
+
+@import  "_Ep.scss";
+@import  "_siteMapPage.scss";
+@import  "_WatchListTopNav.scss";
+@import  "_mapPage.scss";
+@import  "_productSheetPage.scss";
+@import  "_product.scss";
+@import  "_ContPage_LeftCol.scss";
+@import  "_form_box.scss";
+@import  "_newsPageBlk.scss";
+@import  "_MainTbl.scss";
+@import  "_testimonialsPage.scss";
+@import  "_mytaiwantradetPage.scss";
+@import  "_customizedFrontierPage.scss";
+@import  "_customizedSourcePage.scss";

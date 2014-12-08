@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+@media screen and (max-width: 320px){
+.Content .idx_RightCol {
+	float:right;
+	position: absolute;
+	width:100%;
+	box-sizing:border-box;	
+	.idx_KV {
+		width:100%;
+		height: auto;
+		margin-bottom: 30px
+	}
+	//輪播下方三個icon區塊
+	.ourService {
+		height: 50px;
+		position: relative;
+		top: 0px;
+		overflow: hidden;;
+		.title_F17 {
+			font-size: 17px;
+			font-weight: bold;
+			padding-bottom: 10px;
+			display: none;//隱藏標題
+		}
+		.serviceList li {
+			float: left;
+			width: 320px;
+			height: 50px;
+			margin-left: 0;
+			position: relative;
+			a {
+				display: block;
+				padding: 5px 15px;
+				text-decoration: none;
+				&:hover {
+					color: #333333
+				}
+			}
+			&:hover {
+				&> a{
+					&:before {
+						content: "";
+						width: 12px;
+						height: 100%;
+						position: absolute;
+						top: -10px;
+						left: -10px;
+						background: none;
+						display: none;
+					}
+					&:after {
+						content: "";
+						width: 12px;
+						height: 100%;
+						position: absolute;
+						top: -10px;
+						right: 0;
+						background: none;
+						display: none;
+					}
+				}
+				.cont {
+					text-decoration: underline !important;
+					color: #0066d3
+				}
+			}
+			&:first-child {
+				margin-left: 0
+			}
+			.avatar {
+				background: url(../images/public/symbol_02.png) no-repeat left 0;
+				height: 40px;
+				&.icon01 {
+					background-position: left 0;
+					width: 40px
+				}
+				&.icon02 {
+					background-position: left -50px;
+					width: 50px
+				}
+				&.icon03 {
+					background-position: left -100px;
+					width: 60px
+				}
+			}
+			.TitleTxt {
+				display: table-cell;
+				color: #d6873c;
+				font-size: 16px;
+				font-weight: bold;
+				padding-left: 10px;				
+				overflow: hidden;
+				vertical-align: middle;
+			}
+			.cont {
+				clear: both;
+				padding-top: 10px;
+				line-height: 20px;
+				display: none;//隱藏
+			}
+		}
+	}
+		
+}
+
+//自設檔  整個slider
+.newslider-horizontal {
+	width:320px;
+	height:120px;
+	margin-bottom: 10px;	
+	//輪播 選單外
+	.sliderkit-nav {
+		position: absolute;
+		bottom: 0;
+		width:320px;
+		height: 45px;
+		border-bottom: 1px solid #FFFFFF;
+		display: none;
+		.sliderkit-nav-clip {
+			position: relative;
+			overflow: hidden;
+			margin: 0 auto;
+			ul {
+				position: relative;
+				left: 0;
+				top: 0;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				//輪播 選單內
+				li {
+					float: left;
+					height: 45px;
+					width: 64px;
+					padding: 0px 0 0;
+					margin: 0;
+					&.sliderkit-selected {
+						position: relative;
+						&:before {
+							content: "";
+							width: 100%;
+							height: 20px;
+							position: absolute;
+							background: transparent url(../images/public/symbol_01.png) no-repeat 55px -327px;
+							top: 0;
+							left: 0;
+						}
+						a {
+							font-weight: bold;
+							color: #0066d3;
+						}
+					}
+					a {
+						height: 35px;
+						width: 62px;
+						margin: 0;
+						padding: 10px 2px 0;
+						text-align: center;
+						font-size: .9em;
+						line-height: 110%;
+						color: #000000;
+						text-decoration: none;
+						border-top: 2px solid #a5a5a5;
+						outline: none;
+						&:hover, &:focus {
+							color: #0066d3;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+		
+	}
+	//輪播 全部圖片最外框
+	.sliderkit-panels {
+		position: absolute;
+		left: 0;
+		width:320px;
+		height:118px;
+		overflow: hidden;
+		//輪播 每張圖片最外框
+		.sliderkit-panel {
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: auto;
+			background: #fff;
+		}
+		//輪播 每張圖片內框
+		.sliderkit-news {
+			a.learnMore {
+				position: absolute;
+				top:0px;
+				left: 25px;
+				font-size: 15px;
+				color: #0066d3;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			.learnMore:after {
+				content: "";
+				width: 20px;
+				height: 20px;
+				background: url(../images/public/symbol_01.png) no-repeat -5px -926px;
+				display: inline-block;
+				vertical-align: middle;
+				margin-left: 5px;
+			}
+			h3 {
+				color: #000;
+				font-weight: bold;
+				a {
+					color: #000;
+					font-weight: bold;
+				}
+				font-size: 1.2em;
+				margin: 0 0 15px;
+			}
+			img {
+				float: right;
+				width:320px;
+				height: auto;
+				margin: 0 0 0 10px;
+				overflow: hidden;
+			}
+			p {
+				margin: 0;
+			}
+		}
+	}	
+
+}
+
+
+
+
+
+
+}

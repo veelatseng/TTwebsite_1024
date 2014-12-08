@@ -1,0 +1,45 @@
+@media screen and (max-width: 320px){
+
+.ContentPage .ContPage_LeftCol {
+	float: left;
+	width: 100%;
+	min-height: 400px;
+	border-top:none;
+	padding: 5px 0 0 0;
+	font-size: 12px;
+	margin-top: 0px;
+	background: #fff;
+	display: none;	
+	.ResultList {	
+		border-bottom: 1px solid #d4d4d4;
+		margin-bottom: 0;
+		&:first-child{
+			border-top:2px solid #ccc;
+			margin-top: 10px;
+		}
+	}
+}
+.filter{
+	&:before{
+		content: "";
+		width: 24px;
+		height: 24px;
+		display: block;
+		background :#eee url(../images/public/Data-Filled-Filter-icon.png) center center no-repeat;
+		border-radius: 3px;
+		padding: 5px;
+		cursor: pointer;
+		border: 1px solid #ccc;
+	}
+}
+.ContentPage .ContPage_LeftCol .dottedLine {
+	width: 185px;
+	text-align: left
+}
+
+
+.ContentPage .ContPage_LeftCol .LeftOtherBlk.Banner {
+	display: none;
+}
+
+}

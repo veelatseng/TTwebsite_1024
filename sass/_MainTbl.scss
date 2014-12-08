@@ -1,0 +1,82 @@
+@media screen and (max-width: 320px){
+
+.MainTbl {
+	margin: 0 0 0 0!important;
+	width: 300px!important;
+	td.TdTop{
+		width: 300px!important;
+		padding-left: 0px!important;
+		tr td{
+			float: left;
+			padding-left: 0px!important;
+			display: block;
+			width: 300px!important;
+			text-align: center;			
+			&#SinceDateStyle{
+				padding-left: 0px!important;
+				span{
+					padding-left: 0px!important;
+					font-size: 12px;
+					&#HeaderSpan{
+						font-size: 18px!important;
+					}
+				}
+			}			
+		}		
+	}
+	td#InfoTd{
+		width: 300px!important;
+		padding-left: 0px!important;
+		table#LogoTbl{
+			width: 300px!important;
+			margin-bottom: 20px;
+			tr td{
+				a img{
+					width: 300px!important;
+					height: auto;
+					margin: 0;
+				}
+			}
+		}
+		#TopHorizLine{
+			display: none;
+		}
+		table{
+			tr td{
+				padding-left: 0px!important;
+				width: 300px!important;
+			}
+		}
+		table.veela_b_b{
+			tr td{
+				margin-bottom: 15px;
+				padding-top: 15px;
+				border-top: 1px solid #ccc;
+				width: 300px!important;
+				&:nth-child(1){
+					display: none;
+				}
+				&:nth-child(2){
+					width: 290px!important;
+					display: block;
+				}
+				&:nth-child(3){
+					display: none;
+				}
+				&:nth-child(4){					
+					display: none;
+				}
+				&:nth-child(5){
+					float: left;
+					width: 290px!important;
+					display: block;
+				}
+				&:nth-child(6){
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+}

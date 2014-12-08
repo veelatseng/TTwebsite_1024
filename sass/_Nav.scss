@@ -1,0 +1,151 @@
+@charset "utf-8";
+@media screen and (max-width: 320px){
+
+.Content .idx_LeftCol {
+	float: left;
+	width: 100%;
+	border-top: none;	
+	margin: 0;
+	padding: 0;
+	 *z-index:1;
+	 *position:relative;
+	 &.noBorder {
+		border-top: 0 solid #ffc01b;
+	}
+}
+.Content .idx_LeftCol .nav {
+	position: absolute;
+	left: 0;
+	top:41px;
+	z-index: 99999;
+	background: #fff;
+	width: 100%;
+	margin: 0;
+	padding: 0;	
+	display: none;//left_menu先隱藏
+	li {
+		position: relative;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		.navItem {
+			width: 100%;		
+			padding: 9px 10px 7px 10px;
+			margin-bottom: 2px;
+			display: block;
+			background: url(../images/public/symbol_01.png) no-repeat right -158px;
+			position: relative;
+			z-index: 101;
+			text-decoration: none !important;
+			&.blackbrd {
+				border: 1px solid #d4d4d4;
+				background: url(../images/public/symbol_01.png) no-repeat right -78px;
+				padding: 10px 10px 7px 10px
+			}
+		}
+		&:hover .navItem {
+			color: #d6873c
+		}
+		.subMenu {
+			position: relative;;
+			left: 0;
+			top: 0;
+			z-index: 100;
+			border: none;
+			border-top: 1px solid #e3e3e3;
+			width: auto;
+			height: auto;
+			background: #ffffff;
+			-webkit-box-shadow:0px 0px 0px;
+			-moz-box-shadow:0px 0px 0px;
+			box-shadow:0px 0px 0px;
+			display: none;
+			.subMenuBrd {
+				position: relative;
+				top: -1px;
+				border: none;
+				border-top: 1px solid #e3e3e3;
+				border-bottom: 1px solid #e3e3e3;
+				background: #f2f2f2;
+				padding: 10px 0 0 0;
+				-webkit-box-shadow:0px 0px 0px;
+				-moz-box-shadow:0px 0px 0px;
+				box-shadow:0px 0px 0px;
+				display: block;				
+				&:before {
+					display: none;
+				}
+				.MenuTitle {
+					color: #0066d3;
+					font-size: 14px;
+					padding: 0 0 8px 0;
+					margin: 0 20px 0 20px;
+					display: block;
+				}
+				.more {
+					display: none;
+				}				
+				ul li {
+					margin: 2px 0 5px 17px;
+					a {
+						display: block;
+						line-height: 15px;
+						font-size: 12px;
+						padding: 6px 15px 5px 15px;
+						background: url(../images/public/symbol_01.png) -10px -362px no-repeat;
+					}
+				}
+			}
+			//次選單標題
+			.subMenuBlk {
+				display: inline-block;
+				 *display:inline;
+				 *zoom:1;
+				vertical-align: top;
+				width: auto;
+				position: relative;
+				margin-bottom: 10px;
+			}
+		}
+		&:hover > .subMenu {
+			display: block;
+		}
+	}
+	a.more {
+		background: none;
+		padding: 10px 6px 10px 0;
+		&:hover {
+			text-decoration: underline !important;
+			color: #0066d3
+		}
+	}
+}
+
+.Content .idx_LeftCol .nav li .subMenu.style01 .subMenuBrd {
+	left: 0px;
+}
+.Content .idx_LeftCol .nav li .subMenu.style01 .subMenuBlk {
+	width: auto;
+}
+.Content .idx_LeftCol .nav li .subMenu.style02 .subMenuBrd {
+	width: auto;
+	left: 0px;
+}
+.Content .idx_LeftCol .nav li .subMenu.style03 .subMenuBrd {
+	width: auto;
+	left: 0px;
+}
+.Content .idx_LeftCol .nav li .subMenu.style03 .subMenuBlk {
+}
+.Content .idx_LeftCol .nav li .subMenu.style04 .subMenuBrd {
+	width: auto;
+	left: 0px;
+}
+.Content .idx_LeftCol .nav li .subMenu.style04 .subMenuBrd .more {
+	padding-bottom: 20px;
+}
+.Content .idx_LeftCol .nav li .subMenu.style04 .subMenuBlk {
+}
+
+
+}

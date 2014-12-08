@@ -1,0 +1,147 @@
+@charset "utf-8";
+@media screen and (max-width: 320px){
+.Products{
+	clear: both;
+	padding: 0 10px;
+	.title_F22 {
+		font-size: 15px;
+		font-weight: bold;
+		padding: 10px 0 10px 0;
+		clear: both;
+		text-align: center;
+		border:solid 2px #ccc;
+		border-radius: 3px;
+	}
+	.carousel-Products {
+		width:300px;
+		margin-top: 10px;
+		margin-left: 0px;
+		height: 230px;
+		position: relative;
+		.sliderkit-nav {
+			left: 0;
+			bottom: 0;
+			background: none;
+		}
+		.sliderkit-nav-clip {
+			width: 300px !important;
+			ul {
+				margin-left: 0px !important;
+				li {
+					float: left;
+					margin: 0 0 0 0;
+					padding: 10px 55px;
+					background: none;
+					&:first-child a {
+						background: none;
+					}
+					&:hover {
+						-webkit-box-shadow: 0 0 0px 0 #555555;
+						-moz-box-shadow: 0 0 0px 0 #555555;
+						box-shadow: 0 0 0px 0 #555555;
+						background: none;
+					}
+					p {
+						height: 30px;
+						display: table-cell;
+						vertical-align: middle;
+						color: #0066d3;
+						font-size: 12px;
+						line-height: 18px;
+						padding: 0 22px;
+					}
+					a {
+						display: block;
+						width:auto;
+						height:auto;
+						margin: 0;
+						padding: 0 0 20px;
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+		&.arrowbtn .sliderkit-nav {
+			.sliderkit-nav-prev {
+				position: absolute;;
+				z-index: 99999;
+				left: 0px;
+			}
+			.sliderkit-nav-next {
+				position: absolute;;
+				z-index: 99999;
+				right:0px;
+			}
+		}
+	}
+
+
+}
+
+.carousel-Products-fourItem {
+	width: 767px;
+	margin-left: -5px;
+	.sliderkit-nav {
+		left: 0;
+		bottom: 0;
+	}
+	.sliderkit-nav-clip {
+		width: 767px !important;
+		ul {
+			margin-left: 5px !important;
+			li {
+				float: left;
+				margin: 5px 0;
+				background: url(../images/public/line_h2.gif) right top repeat-y;
+				&:first-child a.picbtn {
+					background: url(../images/public/line_h2.gif) left top repeat-y;
+				}
+				&:hover {
+					-webkit-box-shadow: 0 0 7px 0 #555555;
+					-moz-box-shadow: 0 0 7px 0 #555555;
+					box-shadow: 0 0 7px 0 #555555;
+					background: white;
+				}
+				p {
+					display: table-cell;
+					vertical-align: middle;
+					font-size: 12px;
+					line-height: 18px;
+					padding: 0 22px;
+					vertical-align: bottom;
+					font-size: 12px;
+					text-align: left;
+					line-height: 18px;
+					height: 60px;
+				}
+				a.picbtn {
+					display: block;
+					width: 189px;
+					height: 180px;
+					margin: 0;
+					padding: 0 0 40px;
+					background: url(../images/public/line_h2.gif) right top repeat-y;
+					color: #0066d3;
+					&:hover p span {
+						text-decoration: underline;
+						&.addwatchBtn {
+						/*	text-decoration    : none;*/
+						}
+					}
+				}
+			}
+		}
+	}
+	&.arrowbtn .sliderkit-nav {
+		.sliderkit-nav-prev {
+			left: 20px;
+		}
+		.sliderkit-nav-next {
+			right: 25px;
+		}
+	}
+}
+
+}

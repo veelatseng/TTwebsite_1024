@@ -1,0 +1,174 @@
+﻿@charset "utf-8";
+@media screen and (max-width: 320px){
+.Header {
+	height:55px;
+	position: relative;
+	z-index:500;
+	width: 300px;
+	padding: 0 10px;
+	overflow: hidden;
+	h1 {
+		width: 245px;
+		float: left;
+		display: none;//隱藏
+		&.logo {
+			display: block;
+			margin: 15px 0;
+			width: 175px;
+			height: 68px;
+			background: url(../images/public/logo.png) no-repeat;
+			&.small {
+				width : 75px;
+				height : 35px;
+				margin : 10px 0 0 0;
+				background: url(../images/public/logo_s.png) no-repeat;
+			}
+		}
+	}
+	//搜尋區塊
+	.searchBrd {
+		position: relative;
+		left: 0px;
+		top: 0px;
+		margin: 10px auto 0 auto;
+		width: auto;
+		height: 30px;
+		&:before {
+			display:none;
+		}
+	}
+	.searchResultBlk {
+		display : none;
+		position: absolute;
+		left: 0;
+		top: 32px;
+		width:100%;
+		border:1px solid #ffc01b;
+		border-top:0;
+		padding:10px 0;
+		background:#FFFFFF;
+		.recentTitle{
+			display:block;
+			float:left;
+			padding:0 0 0 10px;
+		}
+		.keyword{
+			margin-left:125px;
+			display:block;
+			color:#0066d3;
+			a{
+				color:#0066d3;
+			}
+		}
+	}
+	//搜尋框
+	.searchBk {
+		border: 2px solid #ffc01b;
+		height: 30px;
+		float: left;
+		border-left:2px solid #ffc01b;
+		border-right:2px solid #ffc01b;
+		width:auto;
+		border-radius: 6px;	
+		display: inline-block;;
+		li {
+			float:left;
+			height: 30px;
+			padding: 0 0;
+			position:relative;
+			//下拉選單
+			&.stPrd {
+				position: relative;
+				z-index: 8000;
+				color: #696969;
+				width:70px;
+				span {
+					display: block;
+					line-height: 26px;
+					margin-top: 2px;
+					padding: 0 10px 0 5px;
+					background: url(../images/public/symbol_01.png) 45px -40px no-repeat;
+					cursor: pointer;
+				}
+				&:after {
+					content:"";
+					position:absolute;
+					right:-1px;
+					top:2px;
+					height:26px;
+					width:1px;
+					background:#b4b4b4;
+					display:block
+				}
+				ul {
+					position: absolute;
+					top: 30px;
+					left: 0;
+					background: #ffffff;
+					border: 1px solid #ffc01b;
+					border-top: 2px solid #ffc01b;
+					width:100%;
+					display:none;
+					overflow: hidden;
+					li.stItem {
+						padding: 5px 10px 5px 10px;
+						height:inherit;
+						cursor: pointer;
+						display:block;
+						height : 18px;
+						width:100%;
+						&:hover {
+							background: #ffc01b;
+							color: #000
+						}
+					}
+				}
+				&:hover > ul {
+					display: block;
+				}
+			}
+			//搜尋input
+			input {
+				width:130px;
+				border:0;
+				background:transparent;
+				*padding:5px 0 0 5px;
+				font-size:13px;
+				line-height:18px
+			}
+			//搜尋按鈕
+			.searchBtn {
+				width: 30px;
+				height: 30px;
+				display: block;
+				background: url(../images/public/symbol_02.png) -32px -205px no-repeat;
+				border-radius: 0 4px 4px 0;	
+				margin-right: 0px;
+				float: right;
+				//右邊圓角
+				&:after {
+					display:none;
+				}
+				&:hover {
+					background-position: -32px -245px
+				}
+			}	
+		}
+	}
+	//進階搜尋
+	.advlink {
+		height: 30px;
+		float: left;
+		line-height: 35px;
+		margin-left: 5px;
+		color: #0066d3;
+		font-size: 11px;
+	}	
+}
+//搜尋框的搜尋input
+:root .Header .searchBk li input {
+	padding   : 4px 0 0 5px\0;
+	line-height:20px\0
+}
+
+}

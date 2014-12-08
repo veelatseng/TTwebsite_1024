@@ -1,0 +1,67 @@
+@charset "utf-8";
+@media screen and (max-width: 320px){
+//最下方連結
+.Content .linksBlk {
+	position: relative;
+	clear: both;
+	border-left: 0px solid #d4d4d4;
+	border-right: 0px solid #d4d4d4;
+	background: none;
+	width: 300px;
+	padding: 0 10px;
+	margin: 15px 0 0 0;
+	&:before {
+		display: none;
+	}
+	&:after {
+		display: none;
+	}
+	.linksLister {
+		&:after {
+			display: none;
+		}
+		.linksItem {
+			
+			img {
+				display: inline-block;
+				margin-left: 0px;
+			}
+			.title_F17 {
+				font-size: 14px;
+				font-weight: bold;
+				padding-bottom: 10px;
+			}
+			border-left: 0px solid #d4d4d4;
+			float: left;
+			width: 46%;
+			padding-left:0px;
+			margin-left: 20px;
+			margin-bottom: 15px;
+			&:first-child {
+				padding-left: 0;
+				margin: 0;
+				border: 0;
+			}
+			&:nth-child(n+3){
+				display: none;
+			}
+			.BlackDotLister {
+				.openwinicon {
+					display: inline-block;
+					background: url(../images/public/symbol_01.png) no-repeat 5px -289px;
+					width: 30px;
+					height: 15px;
+					vertical-align: middle;
+				}
+				a {
+					text-decoration: none;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+}
+
+}
